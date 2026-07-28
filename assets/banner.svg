@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="50%" stop-color="#0f1729"/>
+      <stop offset="100%" stop-color="#0a1220"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1de9b6"/>
+      <stop offset="100%" stop-color="#0d7377"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1de9b6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1de9b6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1de9b6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#1de9b6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1de9b6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+  <circle cx="950" cy="180" r="260" fill="url(#glow)"/>
+
+  <g opacity="0.15" stroke="#1de9b6" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="150" y1="0" x2="150" y2="360"/>
+    <line x1="350" y1="0" x2="350" y2="360"/>
+    <line x1="550" y1="0" x2="550" y2="360"/>
+    <line x1="750" y1="0" x2="750" y2="360"/>
+    <line x1="950" y1="0" x2="950" y2="360"/>
+  </g>
+
+  <g transform="translate(950,180)" opacity="0.9">
+    <path d="M0,-90 L70,-60 L70,20 Q70,80 0,110 Q-70,80 -70,20 L-70,-60 Z" fill="url(#shieldGrad)" opacity="0.85"/>
+    <path d="M0,-90 L70,-60 L70,20 Q70,80 0,110 Q-70,80 -70,20 L-70,-60 Z" fill="none" stroke="#1de9b6" stroke-width="2" opacity="0.6"/>
+    <path d="M-28,5 L-10,25 L30,-20" fill="none" stroke="#0a0e1a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g opacity="0.5">
+    <circle cx="1050" cy="80" r="4" fill="#1de9b6"/>
+    <circle cx="1090" cy="140" r="3" fill="#1de9b6"/>
+    <circle cx="820" cy="90" r="3" fill="#1de9b6"/>
+    <circle cx="1000" cy="290" r="3" fill="#1de9b6"/>
+    <circle cx="1120" cy="230" r="4" fill="#1de9b6"/>
+    <circle cx="860" cy="270" r="3" fill="#1de9b6"/>
+  </g>
+
+  <g stroke="#1de9b6" stroke-width="1.5" opacity="0.35" fill="none">
+    <path d="M820,60 L860,60 L880,80"/>
+    <path d="M1080,300 L1040,300 L1020,280"/>
+    <path d="M1130,100 L1130,140 L1100,160"/>
+  </g>
+
+  <line x1="60" y1="255" x2="700" y2="255" stroke="url(#lineGrad)" stroke-width="1"/>
+
+  <text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="700" fill="#f0f7f5">
+    <tspan x="60" dy="0" textLength="1000" lengthAdjust="spacingAndGlyphs">Private Internet Access</tspan>
+    <tspan x="60" dy="64" textLength="620" lengthAdjust="spacingAndGlyphs">Full Version Download</tspan>
+  </text>
+
+  <text x="60" y="255" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#8fb8b3" textLength="900" lengthAdjust="spacingAndGlyphs">
+    Fetches the full Private Internet Access VPN installer for Windows
+  </text>
+
+  <g transform="translate(60,285)" opacity="0.8">
+    <circle cx="0" cy="0" r="5" fill="#1de9b6"/>
+    <text x="16" y="5" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#5fa89f">Encrypted • Verified • Windows Installer</text>
+  </g>
+</svg>
